@@ -32,8 +32,4 @@ const mapsStateToProps = (state) => ({
   cartItems: state.cart.cartItems,
 });
 
-// const mapDispatchToProps = (dispatch) => ({
-//   toggleCartDrop: () => dispatch(toogleCartDrop()),
-// });
-
 export default withRouter(connect(mapsStateToProps)(Cart));

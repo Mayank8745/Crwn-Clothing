@@ -15,9 +15,11 @@ export const selectCollections = createSelector(
 export const selectCollectionsForPreview = createSelector(
   [selectCollections],
   (collections) => {
-    return Object.keys(collections).map((key) => {
-      return collections[key];
-    });
+    return collections
+      ? Object.keys(collections).map((key) => {
+          return collections[key];
+        })
+      : [];
   }
 );
 
