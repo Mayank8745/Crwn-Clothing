@@ -15,13 +15,7 @@ import {
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAxi7KRGGy8UiHnNBMsFsFZk_mcIh_NXuA",
-  authDomain: "crwn-db-f9711.firebaseapp.com",
-  projectId: "crwn-db-f9711",
-  storageBucket: "crwn-db-f9711.appspot.com",
-  messagingSenderId: "901745859910",
-  appId: "1:901745859910:web:5337247050b7608baa5947",
-  measurementId: "G-W543RYN4ZH",
+ // API DETAILS
 };
 
 // Initialize Firebase
