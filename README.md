@@ -1,5 +1,7 @@
 # Link to Online Access of Site
-https://crwn-clothing-react-js.herokuapp.com/
+https://mayank8745.github.io/clothing-app/
+
+If Home page not showing anything please navigate to shop. Then it works fine
 
 # Getting Started with Create React App
 
